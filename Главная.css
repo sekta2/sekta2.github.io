@@ -25,56 +25,69 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
     transition-duration: 0.5s;
-    transform: scale(1.1) translateX(0px) translateY(0px);
     --animation-custom_in-scale: 1;
     margin-top: -28px;
+    transform: scale(1.1) translateX(0px) translateY(0px);
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -259px;
-    margin-left: calc(((100% - 1140px) / 2) + 171px);
+    margin-top: -233px;
+    margin-left: calc(((100% - 940px) / 2) + 10px);
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 98px;
-    margin-left: calc(((100% - 1140px) / 2) + 100px);
-    margin-right: calc(((100% - 1140px) / 2) + 100px);
+    width: auto;
+    margin-top: -149px;
+    margin-right: calc(((100% - 940px) / 2) + -72px);
+    margin-left: calc(((100% - 940px) / 2) + 205px);
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-image-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 281px);
+    margin-top: -234px;
+    margin-left: calc(((100% - 720px) / 2));
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 210px);
-    margin-right: calc(((100% - 1140px) / 2) + 210px);
+    margin-top: -176px;
+    margin-right: calc(((100% - 720px) / 2) + -175px);
+    margin-left: calc(((100% - 720px) / 2) + 196px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-image-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 371px);
+    margin-top: -231px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 300px);
-    margin-right: calc(((100% - 1140px) / 2) + 300px);
+    margin-top: -213px;
+    margin-right: 0;
+    margin-left: calc(((100% - 540px) / 2) + 174px);
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    height: 309px;
+    width: 459px;
+    margin-top: -42px;
+    margin-right: auto;
+    margin-left: calc(((100% - 340px) / 2) + -71px);
+  }
+
   .u-section-1 .u-image-2 {
-    margin-top: -365px;
-    margin-left: calc(((100% - 1140px) / 2) + 471px);
+    margin-top: -234px;
+    margin-left: calc(((100% - 340px) / 2) + -22px);
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
-    margin-top: 204px;
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-    margin-right: calc(((100% - 1140px) / 2) + 400px);
+    font-size: 1.875rem;
+    margin-top: -130px;
+    margin-right: calc(((100% - 340px) / 2) + -207px);
+    margin-left: calc(((100% - 340px) / 2) + 170px);
   }
 }@font-face {
   font-family: 'Qanelas-ExtraBold';
