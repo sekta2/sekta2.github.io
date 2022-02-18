@@ -1,0 +1,45 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 604px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 902px;
+  margin: 87px auto 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 307px;
+  width: 303px;
+  margin: 37px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 656px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 75px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    min-height: 308px;
+    width: 308px;
+    margin-top: 41px;
+  }
+}@font-face {
+  font-family: 'Qanelas-ExtraBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Qanelas-ExtraBold.ttf);
+}
