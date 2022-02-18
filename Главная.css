@@ -27,7 +27,7 @@
   font-family: Qanelas-ExtraBold;
   font-size: 3.75rem;
   background-image: none;
-  margin: 75px 50px 0;
+  margin: 61px 86px 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -36,7 +36,16 @@
   font-weight: 700;
   font-family: Qanelas-ExtraBold;
   letter-spacing: normal;
-  margin: 59px auto 60px;
+  margin: 71px calc(((100% - 1140px) / 2) + 408px) 0 auto;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Qanelas-ExtraBold;
+  letter-spacing: normal;
+  margin: -49px auto 60px calc(((100% - 1140px) / 2) + 414px);
 }
 
 @media (max-width: 1199px) {
@@ -65,7 +74,12 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 44px;
+    margin-top: 36px;
+    margin-right: calc(((100% - 940px) / 2) + 208px);
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 940px) / 2) + 214px);
   }
 }
 
@@ -84,13 +98,17 @@
   .u-section-1 .u-text-2 {
     margin-top: 167px;
   }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 720px) / 2));
+  }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 895px;
-  }
-
   .u-section-1 .u-image-2 {
     margin-left: calc(((100% - 540px) / 2));
   }
@@ -103,6 +121,15 @@
 
   .u-section-1 .u-text-2 {
     margin-top: 224px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-bottom: 52px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 
@@ -123,7 +150,12 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 13px;
+    margin-top: 5px;
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: calc(((100% - 340px) / 2));
   }
 }
 

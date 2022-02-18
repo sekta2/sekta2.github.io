@@ -1,0 +1,39 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 516px;
+}
+
+.u-section-1 .u-text-1 {
+  width: 762px;
+  margin: 206px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 44px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}@font-face {
+  font-family: 'Qanelas-ExtraBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Qanelas-ExtraBold.ttf);
+}
