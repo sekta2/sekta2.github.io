@@ -10,6 +10,8 @@
 .u-section-1 .u-image-1 {
   width: 232px;
   height: 232px;
+  background-image: url("/images/coffeinaproject.png");
+  background-position: 50% 50%;
   margin: 149px auto 0 140px;
 }
 
@@ -24,7 +26,16 @@
   letter-spacing: 0px;
   font-weight: 700;
   font-family: Qanelas-ExtraBold;
-  margin: 19px auto 60px 453px;
+  margin: 19px auto 0 453px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-family: Qanelas-ExtraBold;
+  margin: -49px 406px 60px auto;
 }
 
 @media (max-width: 1199px) {
@@ -35,6 +46,10 @@
   .u-section-1 .u-btn-1 {
     margin-left: 253px;
   }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 206px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -44,6 +59,10 @@
 
   .u-section-1 .u-btn-1 {
     margin-left: 33px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
   }
 }
 
@@ -75,6 +94,7 @@
   }
 } .u-section-2 {
   background-image: url("https://pixabay.com/get/g5ae37b3988689631431cea9074938d0c37c2bdf25c8260eddb83bc699f6d7586ea986f18ce685a7ce460bc75a23f62b4a0e656ed0c7c61c759e348bc0cc50e17_1280.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -143,6 +163,67 @@
 
   .u-section-2 .u-text-2 {
     font-size: 1.5rem;
+  }
+} .u-section-3 {
+  background-image: url("/images/43f4ce851f5ab369cf4aa84d5057fc1618b954c9e82a3956880e2d061f7e27508bc53df35ac4f1adb02299acc60899d728bc7823ebdecd37d733e3_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 523px;
+}
+
+.u-section-3 .u-text-1 {
+  font-family: Qanelas-ExtraBold;
+  margin: 68px auto 0;
+}
+
+.u-section-3 .u-image-1 {
+  width: 262px;
+  height: 262px;
+  margin: 11px auto 0 45px;
+}
+
+.u-section-3 .u-text-2 {
+  font-family: Qanelas-ExtraBold;
+  font-size: 1.25rem;
+  margin: -195px 235px 0 auto;
+}
+
+.u-section-3 .u-text-3 {
+  font-family: Qanelas-ExtraBold;
+  margin: 100px auto 52px 45px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 431px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 248px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 176px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 156px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 111px;
   }
 }@font-face {
   font-family: 'Qanelas-ExtraBold';

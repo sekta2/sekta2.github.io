@@ -36337,11 +36337,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 114px;
+  min-height: 132px;
 }
 
 .u-header .u-menu-1 {
-  margin: 19px 25px 0 auto;
+  margin: 28px 25px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -36354,20 +36354,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 64px;
-  height: 64px;
-  margin: -70px auto 25px 25px;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  width: 67px;
+  height: 67px;
+  background-image: url("/images/coffeinaproject.png");
+  background-position: 50% 50%;
+  margin: -72px auto 32px 39px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 118px;
-  }
-
   .u-header .u-menu-1 {
     width: auto;
     margin-top: 3px;
@@ -36375,8 +36368,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    margin-top: -69px;
-    margin-bottom: 46px;
+    margin-top: -72px;
+    margin-left: 39px;
   }
 }
 @media (max-width: 991px) {
@@ -36384,21 +36377,13 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 22px;
     margin-right: 27px;
   }
-
-  .u-header .u-image-1 {
-    margin-top: -50px;
-  }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
     margin-right: 27px;
   }
 }
-@media (max-width: 575px) {
-  .u-header .u-image-1 {
-    margin-bottom: 45px;
-  }
-}
+
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
